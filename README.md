@@ -3,7 +3,7 @@
 My online test application is a simple application with a short quiz designed to test the programming knowledge of the user. The user is provided an interface to choose an option from the given choices and an immediate feedback is provided with the results displayed to the user.
 Working and flow of the application: 
 
-Note: The use of a server is mandatory in order to load the JSON file. A localhost server or a live server can be used for hosting the website. For the purposes of this project, the Live Server extension from the VisualStudio Code editor was used.
+Note: The use of a server is mandatory in order to load the data from JSON file. A localhost server or a live server can be used for hosting the website. For the purposes of this project, the Live Server extension from the VisualStudio Code editor was used.
 1.	The set of questions and respective answers are stored in a json file called data.json written in JSON format which will be shared from a server using XMLHttpRequest() method.
 2.	The parsed JSON data is stored in a local variable and used as a Javascript object throughout the function.
 3.	 The index page of the quiz ‘quiz2.html’ gives the users options and the user has to select the desired option from the given answers. 

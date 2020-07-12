@@ -1,0 +1,111 @@
+[{
+	"id": "1",
+	"name": "You need to store elements in a collection that guarantees that no duplicates are stored and all elements can be accessed in natural order. Which interface provides that capability?",
+	"options": [{
+			"id": 1,
+			"option": "java.util.Set"
+		},
+		{
+			"id": 2,
+			"option": "java.util.Map"
+		},
+		{
+			"id": 3,
+			"option": "java.util.List"
+		},
+		{
+			"id": 4,
+			"option": "java.util.Collection"
+		}
+	],
+	"answer": "1",
+	"explanation": "A Set is a Collection that cannot contain duplicate elements. It models the mathematical set abstraction."
+}, {
+	"id": "2",
+	"name": "According to Boolean operations, if !g is true, then which of the following applies?",
+	"options": [{
+			"id": 1,
+			"option": "If g is true, and false otherwise"
+		},
+		{
+			"id": 2,
+			"option": "If g is false, and false otherwise"
+		},
+		{
+			"id": 3,
+			"option": "If g is false, and true otherwise"
+		},
+		{
+			"id": 4,
+			"option": "If g is true, and true otherwise"
+		}
+	],
+	"answer": "2",
+	"explanation": "Not operator negates true to false."
+}, {
+	"id": "3",
+	"name": "Which collection class allows you to grow or shrink its size and provides indexed access to its elements, but whose methods are not synchronized?",
+	"options": [{
+			"id": 1,
+			"option": "java.util.HashSet"
+		},
+		{
+			"id": 2,
+			"option": "java.util.ArrayList"
+		},
+		{
+			"id": 3,
+			"option": "java.util.LinkedHashSet"
+		},
+		{
+			"id": 4,
+			"option": "java.util.List"
+		}
+	],
+	"answer": "2",
+	"explanation" : "All of the collection classes allow you to grow or shrink the size of your collection. ArrayList provides an index to its elements. The newer collection classes tend not to have synchronized methods. Vector is an older implementation of ArrayList functionality and has synchronized methods; it is slower than ArrayList."
+}, {
+	"id": "4",
+	"name": "Within Java, each call to StdOut.println () does which of the following?",
+	"options": [{
+			"id": 1,
+			"option": "Overwrites the current contents of the file"
+		},
+		{
+			"id": 2,
+			"option": "Prints the contents of the current file"
+		},
+		{
+			"id": 3,
+			"option": "Reads and then prints the contents of the current file"
+		},
+		{
+			"id": 4,
+			"option": "Appends text to the end of the file"
+		}
+	],
+	"answer": "2",
+	"explanation" : "Self-explanatory"
+}, {
+	"id": "4",
+	"name": "Suppose that you would like to create an instance of a new Map that has an iteration order that is the same as the iteration order of an existing instance of a Map. Which concrete implementation of the Map interface should be used for the new instance?",
+	"options": [{
+			"id": 1,
+			"option": "TreeMap"
+		},
+		{
+			"id": 2,
+			"option": "HashMap"
+		},
+		{
+			"id": 3,
+			"option": "LinkedHashMap"
+		},
+		{
+			"id": 4,
+			"option": "The answer depends on the implementation of the existing instance."
+		}
+	],
+	"answer": "3",
+	"explanation" : "The iteration order of a Collection is the order in which an iterator moves through the elements of the Collection. The iteration order of a LinkedHashMap is determined by the order in which elements are inserted.When a new LinkedHashMap is created by passing a reference to an existing Collection to the constructor of a LinkedHashMap the Collection.addAll method will ultimately be invoked.The addAll method uses an iterator to the existing Collection to iterate through the elements of the existing Collection and add each to the instance of the new LinkedHashMap.Since the iteration order of the LinkedHashMap is determined by the order of insertion, the iteration order of the new LinkedHashMap must be the same as the interation order of the old Collection."
+}]

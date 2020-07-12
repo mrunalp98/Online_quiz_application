@@ -1,5 +1,4 @@
 # Online_quiz_application
-A repository that contains The Online Test Application system application that enables users to answer online tests, review them, and display the results.
 
 My online test application is a simple application with a short quiz designed to test the programming knowledge of the user. The user is provided an interface to choose an option from the given choices and an immediate feedback is provided with the results displayed to the user.
 Working and flow of the application: 
